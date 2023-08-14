@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-require('jsonwebtoken');
+ 
 
 const auth = (req, res, next) => {
   try {
